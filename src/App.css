@@ -1,0 +1,219 @@
+*{
+	font-family: arial;
+	font-size: 14px;
+}
+
+body{
+  background-color: #D5C7F0;
+}
+
+.container{
+  margin: 170px 390px;
+	border: none;
+	width: 390px;
+	height: 350px;
+  box-shadow: gray;
+  border-radius: 2px;
+	background-color: whitesmoke;
+  border-color: black;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: lightgrey;
+}
+
+h1{
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  padding-top: 30px;
+}
+
+.fname{
+  margin-right: 10px;
+}
+
+label{
+  font-size: 15px;
+  color: black;
+  font-weight: 550;
+	margin-left: 10px;
+  padding-bottom: -50px;
+}
+
+input[name="firstName"]{
+	width: 97%;
+	padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-right: 140px;
+  margin-bottom: 7px;
+	margin-top: 4px;
+  margin-left: 10px;
+	text-indent: 10px;
+	border: 2px black;
+	outline-style: solid;
+  outline-width: 1.35px;
+  outline-color: gray;
+  border-radius: 3px;
+  background-color: white;
+}
+
+input[name="lastName"]{
+	width: 94%;
+	padding-top:7.5px;
+  padding-bottom: 7.5px;
+  padding-right: 103px;
+  margin-bottom: 7px;
+	margin-top: 4px;
+  margin-left: 10px;
+	text-indent: 10px;
+	border: 2px black;
+	outline-style: solid;
+  outline-width: 1.35px;
+  outline-color: gray;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.btn{
+  padding: 10px 10px;
+  margin-left: 120px;
+}
+
+.update-btn{
+  border-radius: 3.6px;
+  padding: 12px 40px;
+  color: black;
+  background-color: rgb(30, 255, 0);
+  border-color: rgb(4, 252, 4);
+  border: none;
+  outline: none;
+  border-left: 2px solid rgb(41, 48, 41);
+  border-bottom: 2px solid  rgb(41, 48, 41);
+}
+
+.update-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 10px;
+ }
+ 
+ #List {
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 70%;
+ }
+ 
+ #List td, #List th {
+   border: 1px solid #ddd;
+   padding: 8px;
+ }
+ 
+ #List tr:nth-child(even){background-color: #f2f2f2;}
+ 
+ #List th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: gray;
+   color: black;
+   font-size: 13px;
+ }
+ 
+ input[name="delete"]{
+    font-size: 13px;
+    margin-left: 30px;
+    padding: 8.5px 40px 8.5px 40px;
+    background-color:rgb(248, 11, 11);
+    border-radius: 4px;
+    border: none;
+    border-color: royalblue;
+    color: white;
+    border-left: 2px solid rgb(41, 48, 41);
+    border-bottom: 2px solid  rgb(41, 48, 41);
+ }
+
+ input[name="delete"]:hover {
+  background-color:  maroon ;
+  color: white;
+}
+ 
+ input[name="update"]{
+    font-size: 13px;
+    margin-left: 30px;
+    padding: 8.5px 40px 8.5px 40px;
+    background-color: rgb(4, 252, 4);
+    border-color: rgb(4, 252, 4);
+    border-radius: 4px;
+    border: none;
+    color: black;
+    border-left: 2px solid rgb(41, 48, 41);
+    border-bottom: 2px solid  rgb(41, 48, 41);
+ }
+
+ input[name="update"]:hover {
+  background-color: green;
+  color: white;
+
+}
+
+ input[name="back"]{
+  font-size: 13px;
+  margin-left: 30px;
+  padding: 8.5px 40px 8.5px 40px;
+  background-color: rgb(4, 252, 4);
+  border-color: rgb(4, 252, 4);
+  border-radius: 4px;
+  border: none;
+  color: black;
+  border-left: 2px solid rgb(41, 48, 41);
+  border-bottom: 2px solid  rgb(41, 48, 41);
+}
+
+input[name="back"]:hover{
+  background-color: green;
+  color: white;
+}
